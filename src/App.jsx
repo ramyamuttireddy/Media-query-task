@@ -203,7 +203,7 @@ function App() {
 
           {/* Cart Section */}
 
-          <div className=' p-[24px] bg-white rounded-[12px] lg:max-w-fit max-h-fit'>
+          <div className=' p-[24px] bg-white rounded-[12px] lg:max-w-fit lg:max-h-fit'>
             <div className='flex flex-col gap-[24px] w-[100%] lg:w-[350px]'>
               <h1 className='text-[24px] text-[#C73B0F] font-[700]'>Your Cart (0)</h1>
               <div className='flex flex-col gap-4 justify-center items-center p-[16px_0]'>
