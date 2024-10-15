@@ -5,27 +5,27 @@ function App() {
 
   return (
     <>
-      <div className='bg-[#fcf8f6] w-full h-full p-[1.5rem]'>
+      <div className='bg-[#fcf8f6] w-full h-full p-[1.5rem] lg:p-[0]'>
 
         {/* main container */}
 
-        <div>
+        <div className=' flex flex-col-reverse gap-[32px] lg:flex-row lg:p-[88px_0] lg:w-[90%] lg:m-auto 2xl:w-[1216px] 2xl:m-auto'>
 
           {/* Desserts section */}
 
           <div>
 
-            <h1 className='text-[40px] font-[700] tracking-tight text-left pb-8'>Desserts</h1>
+            <h1 className='text-[40px] font-[700] tracking-tight text-left pb-8 lg:text-center'>Desserts</h1>
 
             {/* cards Section */}
 
-            <div className='grid grid-cols-1 gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3'>
+            <div className=' grid grid-cols-1 gap-[1.5rem]  md:grid-cols-2 lg:grid-cols-2 lg:gap-y-[32px] lg:gap-x-[14px] lg:w-[100%] xl:grid-cols-3 '>
 
               {/* first card */}
 
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col  gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-image1.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-image1.jpg" alt="image1" className='rounded-[8px] lg:h-[230px] lg:object-cover' />
 
                 <div className='flex justify-center items-center mt-[-38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -43,9 +43,9 @@ function App() {
 
               {/* second card */}
 
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col  gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-image2.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-image2.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
 
                 <div className='flex justify-center items-center -mt-[38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -63,9 +63,9 @@ function App() {
 
               {/* Third Card */}
 
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-image3.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-image3.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
 
                 <div className='flex justify-center items-center -mt-[38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -82,9 +82,9 @@ function App() {
 
               {/* fourth card */}
 
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-4.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-4.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
 
                 <div className='flex justify-center items-center -mt-[38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -101,9 +101,9 @@ function App() {
 
               {/* fifth card */}
 
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-5.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-5.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
 
                 <div className='flex justify-center items-center -mt-[38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -119,9 +119,9 @@ function App() {
               </div>
 
               {/* sixth card */}
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
 
-                <img src="/assests/card-6.jpg" alt="image1" className='rounded-[8px]' />
+                <img src="/assests/card-6.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
 
                 <div className='flex justify-center items-center -mt-[38px] '>
                   <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
@@ -136,6 +136,65 @@ function App() {
 
               </div>
 
+              {/* seven Card */}
+
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
+
+                <img src="/assests/card7.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
+
+                <div className='flex justify-center items-center -mt-[38px] '>
+                  <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
+                </div>
+
+
+                <div className=' flex flex-col gap-1'>
+                  <h2 className='text-[14px] text-[#87635a]'>Cake</h2>
+                  <p className='text-[16px] font-semibold'>Red Velvet Cake</p>
+                  <p className='text-[#c73b0f] text-[16px] font-semibold'>$4.50</p>
+                </div>
+
+              </div>
+
+
+              {/* Eight Card */}
+
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
+
+                <img src="/assests/card8.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
+
+                <div className='flex justify-center items-center -mt-[38px] '>
+                  <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
+                </div>
+
+
+                <div className=' flex flex-col gap-1'>
+                  <h2 className='text-[14px] text-[#87635a]'>Brownie</h2>
+                  <p className='text-[16px] font-semibold'>Salted Caramel Brownie</p>
+                  <p className='text-[#c73b0f] text-[16px] font-semibold'>$4.50</p>
+                </div>
+
+              </div>
+
+
+              {/* ninght Card */}
+
+              <div className='flex flex-col gap-4 lg:gap-[16px]'>
+
+                <img src="/assests/card9.jpg" alt="image1" className='rounded-[8px] lg:h-[232px] lg:object-cover' />
+
+                <div className='flex justify-center items-center -mt-[38px] '>
+                  <button className='flex  font-semibold text-sm p-[12px]  bg-white border-[#ad8a85] border gap-2 items-center justify-center rounded-full w-40'><img src="/assests/icon-add-to-cart.svg" alt="cart-icon" />Add to Cart </button>
+                </div>
+
+
+                <div className=' flex flex-col gap-1'>
+                  <h2 className='text-[14px] text-[#87635a]'>Panna Cotta</h2>
+                  <p className='text-[16px] font-semibold'>Vanilla Panna Cotta</p>
+                  <p className='text-[#c73b0f] text-[16px] font-semibold'>$6.50</p>
+                </div>
+
+              </div>
+
             </div>
 
 
@@ -144,8 +203,14 @@ function App() {
 
           {/* Cart Section */}
 
-          <div>
-
+          <div className=' p-[24px] bg-white rounded-[12px] lg:max-w-fit max-h-fit'>
+            <div className='flex flex-col gap-[24px] w-[100%] lg:w-[350px]'>
+              <h1 className='text-[24px] text-[#C73B0F] font-[700]'>Your Cart (0)</h1>
+              <div className='flex flex-col gap-4 justify-center items-center p-[16px_0]'>
+                <img src="/assests/cartimagecake.svg" alt="" />
+                <p className='text-[#87635A] text-[14px] font-[600]'>Your added items will appear here</p>
+              </div>
+            </div>
           </div>
 
 
