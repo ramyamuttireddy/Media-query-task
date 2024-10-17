@@ -212,8 +212,8 @@ function App() {
             <div className='flex flex-col gap-[24px] w-[100%] lg:w-[350px]'>
               <h1 className='text-[24px] text-[#C73B0F] font-[700]'>Your Cart (0)</h1>
               <div className='flex flex-col gap-4 justify-center items-center p-[16px_0]'>
-                <img src="/assests/cartimagecake.svg" alt="" />
-                <p className='text-[#87635A] text-[14px] font-[600]'>Your added items will appear here</p>
+                <img src="/assests/cartimagecake.svg" alt=""  className=' transition delay-100 animate-bounce'/>
+                <p className='text-[#87635A] text-[14px] font-[600] '>Your added items will appear here</p>
               </div>
             </div>
           </div>
